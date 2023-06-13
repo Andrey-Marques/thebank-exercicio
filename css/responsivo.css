@@ -1,0 +1,57 @@
+@media (max-width: 979px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+
+    }
+    section{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .logo p {
+        display: flex;
+        align-items: center;
+        width: 160px;
+        height: 47px;
+        font-size: 40px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        display: none;
+    }
+.fundo picture{
+    height: 100%;
+    margin-left: px;
+}
+.fundo{
+    height: 100vh;
+}
+    .cadastro{
+position: relative;
+width:20rem;
+height: 25rem;
+text-align: center;
+transform: translateY(-50%);
+    }
+    section.secao2{
+        display: block;
+        text-align: center;
+    }
+    .mobs{
+        display: flex;
+        flex-direction: column;
+        margin-top: 250px;
+        margin-left: 20px;
+    }
+    .mob-item{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+    .titulo{
+        margin-top: 250px;
+    }
+}

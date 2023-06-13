@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;800&display=swap');
+html{
+    font-family: 'Public Sans';
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+
+}
+.logo p{
+    font-size: 20px;
+    font-weight: 800;
+    width: 80px;
+    height: 24px;
+}
+.imagem-logo{
+    width: 45px;
+    height: 42px;
+}
+ .menu{
+    margin-right: 10px;
+ }
+.menu ul{
+    display: flex;
+    align-items: center;   
+}
+.menu li{
+    margin: 0 10px;
+}
+.menu ul li a{
+    transition: 0.2s;
+    padding: 10px 5px;
+    transition: 0.3s all ease-in-out;
+}
+.menu ul li a:hover{
+    background-color: #5BC241;
+    color: #ffffff;
+    transform: scale(1.1);
+    
+}
+
+.cadastre-se{
+    background-color: #5BC241;
+    padding: 10px 21px;
+    border-radius: 10px;
+    transition: 0.3s all ease-in-out;
+    
+}
+.cadastre-se:hover{
+    transform: scale(1.1);
+}
+.cadastre-se a{
+    color: #ffffff;  
+}
+main{
+    height: 100vh;
+    
+}
+.secao1{
+    height: auto;
+}
+.fundo{
+    right: 0;
+    text-align: end;
+    position: relative;
+}
+.fundo img{
+    width: 100%;
+    height: 29rem;   
+}
+.cadastro{
+    background-color: #ffffff;
+    text-align: justify;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    width: 600px;
+    height: 350px;
+    padding: 40px;
+}
+.paragrafo-1{
+    font-size: 40px;
+    margin: 0 0 16px;
+}
+.paragrafo-2{
+    font-size: 22px;
+    margin: 0 0 40px;
+}
+input.cpf{
+    font-size: 16px;
+    width: 290px;
+    height: 55px;
+    padding: 16px;
+}
+.button-cpf{
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #5BC241;
+    border-style: none;
+    width: 200px;
+    height: 48px;
+    border-radius: 10px;
+}
+.button-cpf:hover{
+    background-color: #3aa220;
+    cursor: pointer;
+}
+.secao2{
+    padding: 80px 0;
+}
+.titulo{
+    text-align: center;
+    font-size: 36px;
+}
+.mobs{
+    display: flex;
+}
+.mob-item{
+    background-color: #eff1ee;
+    border-color: #5BC241;
+    border-radius: 10px;
+    border-left-style: solid;
+    padding: 0 15px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+}
+.mob-icone img{
+    width: 150px;
+}
+.mob-titulo{
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+.mob-texto{
+    font-size: 16px;
+}
