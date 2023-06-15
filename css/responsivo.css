@@ -24,17 +24,21 @@
     }
 .fundo picture{
     height: 100%;
-    margin-left: px;
+
 }
 .fundo{
     height: 100vh;
 }
     .cadastro{
 position: relative;
-width:20rem;
-height: 25rem;
+width: 20rem;
+height: auto;
 text-align: center;
-transform: translateY(-50%);
+transform: translate(-3%,-50%);
+padding: 0;
+}
+    input.cpf{
+        width: auto;
     }
     section.secao2{
         display: block;
@@ -43,7 +47,6 @@ transform: translateY(-50%);
     .mobs{
         display: flex;
         flex-direction: column;
-        margin-top: 250px;
         margin-left: 20px;
     }
     .mob-item{
@@ -52,6 +55,6 @@ transform: translateY(-50%);
         padding: 30px;
     }
     .titulo{
-        margin-top: 250px;
+        margin-top: 150px;
     }
 }
